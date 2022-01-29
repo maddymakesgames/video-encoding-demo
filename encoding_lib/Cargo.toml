@@ -1,0 +1,21 @@
+[package]
+name = "stream_encoder"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gstreamer = "0.18.1"
+gstreamer-video = "0.18.1"
+gstreamer-app = "0.18.0"
+image = "0.23"
+anyhow = "1"
+
+[[example]]
+name = "encode_stream"
+path = "../examples/encode_stream.rs"
+
+[[example]]
+name = "encode_vec"
+path = "../examples/encode_vec.rs"

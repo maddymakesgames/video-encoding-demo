@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "encoding_lib",
+    "wgpu_based_encoder"
+]
+resolver = "2"
